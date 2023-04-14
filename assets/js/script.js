@@ -1,19 +1,5 @@
 let dataConhecimento = new Date(2023, 1, 21);
 
-// function calcularDias() {
-//   let dataAtual = new Date();
-//   let diferenca = dataAtual.getTime() - dataConhecimento.getTime();
-//   let dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
-//   return dias;
-// }
-
-// function atualizarContador() {
-//   let contador = document.getElementById("contador-dias");
-//   contador.textContent = calcularDias() + " dias";
-// }
-
-// setInterval(atualizarContador, 1000);
-
 function calcularTempoDecorrido() {
   let dataAtual = new Date();
   let diferenca = dataAtual.getTime() - dataConhecimento.getTime();
@@ -46,7 +32,7 @@ function atualizarContador() {
   document.getElementById("contador-meses").textContent =
     tempo.meses.toFixed(1) + " meses";
   document.getElementById("contador-anos").textContent =
-    tempo.anos.toFixed(1) + " anos";
+    tempo.anos.toFixed(1) + " ano";
 }
 
 setInterval(atualizarContador, 1000);
