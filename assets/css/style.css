@@ -17,7 +17,8 @@ body {
   background-color: pink;
 }
 
-#contador-dias,
-#contador {
-  font-size: 5rem;
+body p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: deeppink;
 }
