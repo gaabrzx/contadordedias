@@ -22,3 +22,16 @@ body p {
   font-weight: bold;
   color: deeppink;
 }
+
+#jheytext {
+  animation: mudar-cor 2s infinite;
+}
+
+@keyframes mudar-cor {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  100% {
+    color: black;
+  }
+}
