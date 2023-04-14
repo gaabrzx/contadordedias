@@ -35,3 +35,16 @@ body p {
     color: black;
   }
 }
+
+#loveu {
+  animation: love-opacity 2s infinite ease-in-out;
+}
+
+@keyframes love-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
