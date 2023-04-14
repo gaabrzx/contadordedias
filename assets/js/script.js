@@ -20,19 +20,40 @@ function atualizarContador() {
   let tempo = calcularTempoDecorrido();
 
   document.getElementById("contador-segundos").textContent =
-    tempo.segundos.toFixed(0) + " segundos";
+    tempo.segundos.toLocaleString("pt-BR", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }) + " segundos";
   document.getElementById("contador-minutos").textContent =
-    tempo.minutos.toFixed(0) + " minutos";
+    tempo.minutos.toLocaleString("pt-BR", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }) + " minutos";
   document.getElementById("contador-horas").textContent =
-    tempo.horas.toFixed(0) + " horas";
+    tempo.horas.toLocaleString("pt-BR", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }) + " horas";
   document.getElementById("contador-dias").textContent =
-    tempo.dias.toFixed(0) + " dias";
+    tempo.dias.toLocaleString("pt-BR", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }) + " dias";
   document.getElementById("contador-semanas").textContent =
-    tempo.semanas.toFixed(0) + " semanas";
+    tempo.semanas.toLocaleString("pt-BR", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }) + " semanas";
   document.getElementById("contador-meses").textContent =
-    tempo.meses.toFixed(1) + " meses";
+    tempo.meses.toLocaleString("pt-BR", {
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    }) + " meses";
   document.getElementById("contador-anos").textContent =
-    tempo.anos.toFixed(1) + " ano";
+    tempo.anos.toLocaleString("pt-BR", {
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    }) + " ano";
 }
 
 setInterval(atualizarContador, 1000);
