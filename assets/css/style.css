@@ -15,6 +15,10 @@ body {
   align-items: center;
   justify-content: center;
   background-color: pink;
+  background-image: url(../img/1685671040755.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body p {
