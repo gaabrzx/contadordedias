@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: pink;
-  background-image: url(../img/1685671040755.jpg);
+  background-image: url(../img/us.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,32 +24,10 @@ body {
 body p {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #a736ea;
+  color: #26fb0a;
 }
 
+#loveu,
 #jheytext {
-  animation: mudar-cor 2s infinite;
-}
-
-@keyframes mudar-cor {
-  0% {
-    color: rgb(255, 0, 0);
-  }
-  100% {
-    color: white;
-  }
-}
-
-#loveu {
   color: #fff;
-  animation: love-opacity 2s infinite ease-in-out;
-}
-
-@keyframes love-opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
