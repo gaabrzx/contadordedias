@@ -36,11 +36,12 @@ body p {
     color: rgb(255, 0, 0);
   }
   100% {
-    color: black;
+    color: white;
   }
 }
 
 #loveu {
+  color: #fff;
   animation: love-opacity 2s infinite ease-in-out;
 }
 
