@@ -22,9 +22,11 @@ body {
 }
 
 body p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  color: #26fb0a;
+  color: #e62020;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px solid rgba(0, 0, 0, 0.3);
 }
 
 #loveu,
