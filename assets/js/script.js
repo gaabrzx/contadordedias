@@ -28,32 +28,32 @@ function atualizarContador() {
     tempo.minutos.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }) + " minutos";
+    });
   document.getElementById("contador-horas").textContent =
     tempo.horas.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }) + " horas";
+    });
   document.getElementById("contador-dias").textContent =
     tempo.dias.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }) + " dias";
+    });
   document.getElementById("contador-semanas").textContent =
     tempo.semanas.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }) + " semanas";
+    });
   document.getElementById("contador-meses").textContent =
     tempo.meses.toLocaleString("pt-BR", {
       minimumFractionDigits: 1,
       maximumFractionDigits: 1,
-    }) + " meses";
+    });
   document.getElementById("contador-anos").textContent =
     tempo.anos.toLocaleString("pt-BR", {
       minimumFractionDigits: 1,
       maximumFractionDigits: 1,
-    }) + " ano";
+    });
 }
 
 setInterval(atualizarContador, 1000);
