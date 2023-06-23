@@ -23,7 +23,7 @@ function atualizarContador() {
     tempo.segundos.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
-    }) + " segundos";
+    });
   document.getElementById("contador-minutos").textContent =
     tempo.minutos.toLocaleString("pt-BR", {
       minimumFractionDigits: 0,

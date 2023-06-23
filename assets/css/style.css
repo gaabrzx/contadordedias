@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: pink;
   background-image: url(../img/us.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -27,9 +26,25 @@ body p {
   color: #e62020;
   text-transform: uppercase;
   text-shadow: 3px 3px 3px solid rgba(0, 0, 0, 0.3);
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
 }
 
-#loveu,
-#jheytext {
-  color: #fff;
+#box {
+  background-color: rgba(0, 0, 0, 0.33);
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
+}
+
+#box label {
+  font-size: 1.1rem;
+  color: palevioletred;
+  font-weight: bold;
+}
+
+#box_field {
+  margin-top: 20px;
 }
