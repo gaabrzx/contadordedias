@@ -34,6 +34,7 @@ body p {
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
+  width: 80%;
 }
 
 #box label {
