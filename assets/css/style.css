@@ -14,35 +14,38 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: pink;
+  background-image: linear-gradient(90deg, pink, rgb(250, 109, 132));
 }
 
-body p {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #e62020;
-  text-transform: uppercase;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
 }
 
-#box {
-  background-color: rgba(0, 0, 0, 0.33);
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eee;
+  border-radius: 15px;
   padding: 2rem;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
-  width: 80%;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.33);
+  min-width: 350px;
 }
 
-#box label {
-  font-size: 1.2rem;
-  color: rgb(255, 255, 255);
+.card label {
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
-#box_field {
+.card p {
+  border-radius: 5px;
+  padding: 5px;
+  color: #6300ff;
+  font-weight: bold;
   margin-top: 20px;
+  font-size: 1.5rem;
 }
